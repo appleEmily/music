@@ -20,6 +20,9 @@
 		A139C43F225ED34100817793 /* natsu.png in Resources */ = {isa = PBXBuildFile; fileRef = A139C439225ED34000817793 /* natsu.png */; };
 		A139C440225ED34100817793 /* ame.png in Resources */ = {isa = PBXBuildFile; fileRef = A139C43A225ED34000817793 /* ame.png */; };
 		A139C441225ED34100817793 /* aki.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = A139C43B225ED34000817793 /* aki.mp3 */; };
+		A13DA20522F73513001D2FCF /* shishamo.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = A13DA20422F73513001D2FCF /* shishamo.mp3 */; };
+		A13DA20722F73593001D2FCF /* wanima.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = A13DA20622F73593001D2FCF /* wanima.mp3 */; };
+		A13DA20922F735E1001D2FCF /* humpBack.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = A13DA20822F735E1001D2FCF /* humpBack.mp3 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -59,6 +62,9 @@
 		A139C439225ED34000817793 /* natsu.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = natsu.png; sourceTree = "<group>"; };
 		A139C43A225ED34000817793 /* ame.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ame.png; sourceTree = "<group>"; };
 		A139C43B225ED34000817793 /* aki.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = aki.mp3; sourceTree = "<group>"; };
+		A13DA20422F73513001D2FCF /* shishamo.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = shishamo.mp3; sourceTree = "<group>"; };
+		A13DA20622F73593001D2FCF /* wanima.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = wanima.mp3; sourceTree = "<group>"; };
+		A13DA20822F735E1001D2FCF /* humpBack.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = humpBack.mp3; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -147,6 +153,9 @@
 				A139C439225ED34000817793 /* natsu.png */,
 				A139C43A225ED34000817793 /* ame.png */,
 				A139C43B225ED34000817793 /* aki.mp3 */,
+				A13DA20422F73513001D2FCF /* shishamo.mp3 */,
+				A13DA20622F73593001D2FCF /* wanima.mp3 */,
+				A13DA20822F735E1001D2FCF /* humpBack.mp3 */,
 			);
 			path = "Music素材";
 			sourceTree = "<group>";
@@ -261,8 +270,11 @@
 				A139C441225ED34100817793 /* aki.mp3 in Resources */,
 				A139C40F225ED32800817793 /* Assets.xcassets in Resources */,
 				A139C40D225ED32600817793 /* Main.storyboard in Resources */,
+				A13DA20922F735E1001D2FCF /* humpBack.mp3 in Resources */,
+				A13DA20722F73593001D2FCF /* wanima.mp3 in Resources */,
 				A139C440225ED34100817793 /* ame.png in Resources */,
 				A139C43F225ED34100817793 /* natsu.png in Resources */,
+				A13DA20522F73513001D2FCF /* shishamo.mp3 in Resources */,
 				A139C43C225ED34100817793 /* aki.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

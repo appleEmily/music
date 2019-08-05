@@ -11,6 +11,8 @@ import AVFoundation
 
 class ViewController: UIViewController {
     
+    var play:Bool = true
+    
     func setAudioPlayer(soundName: String, type: String) {
         let soundFilePath = Bundle.main.path(forResource: soundName, ofType: type)!
         let fileURL = URL(fileURLWithPath: soundFilePath)
@@ -22,20 +24,29 @@ class ViewController: UIViewController {
         }
     }
     
-    
     @IBAction func summer() {
-        setAudioPlayer(soundName: "natsu", type: "mp3")
+        play = false
+        if play == false {
+        setAudioPlayer(soundName: "humpBack", type: "mp3")
         audioPlayer.play()
+        } else {
+        }
     }
     @IBAction func rain() {
-        setAudioPlayer(soundName: "ame", type: "mp3")
+        setAudioPlayer(soundName: "wanima", type: "mp3")
         audioPlayer.play()
     }
     
     @IBAction func autum() {
-        setAudioPlayer(soundName: "aki", type: "mp3")
+        setAudioPlayer(soundName: "shishamo", type: "mp3")
         audioPlayer.play()
     }
+    
+    @IBAction func pause(_ sender: Any) {
+        audioPlayer.pause()
+        
+    }
+    
     
     
     var audioPlayer: AVAudioPlayer!
@@ -46,7 +57,7 @@ class ViewController: UIViewController {
         
     }
     
-    
+
     
 
 
